@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Opciones paquetes</ion-title><ion-button shape="round" felx="end" size="small"(click)="goHome()">Regresar</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-item>
+   <ion-button shape="round" (click)="ingresarPaquete()">INGRESAR PAQUETE</ion-button>
+  </ion-item>
+  <ion-item>
+   <ion-button shape="round" (click)="detallePaquete()">DETALLE PAQUETE</ion-button>
+  </ion-item>
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Paquetes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>

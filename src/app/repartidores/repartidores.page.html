@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Repartidores</ion-title><ion-button shape="round" size="small" (click)="goHome()">Regresar</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-title>Selecciona una opcion</ion-title>
+  
+  <ion-item>
+    <ion-button shape="round" (click)="irACrearRepartidor()">Crear un nuevo Repartidor</ion-button>
+  </ion-item>
+
+  <ion-item>
+    <ion-button shape="round" (click)="perfilRepartidor()">Lista de repartidores</ion-button>
+  </ion-item>
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Repartidores</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
